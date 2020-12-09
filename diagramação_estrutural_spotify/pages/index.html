@@ -9,17 +9,34 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
     <title>Spotify</title>
+
+    <style>
+        a {
+            text-decoration: none;
+            color: #c1c3c6;
+        }
+
+        .btn {
+            color: #787878!important;
+            border: 2px solid #787878!important;
+            border-radius: 20px;
+
+            font-family: Circular, Helvetica, Arial, sans-serif !important;
+        }
+
+    </style>
+
   </head>
   <body>
       
     <div style="background: black;">
-        <div class="container" style="background: aquamarine;">
+        <div class="container" style="color: white;">
             <div class="row">
-                <div class="col-md-7" style="background: lightcyan;">
-                    Spotify
+                <div class="col-md-7" style="">
+                    <img src="../images/logo.png" alt="logo" height="40px" width="132px">
                 </div>
     
-                <div class="col-md-5" style="background: #baf7f7;">
+                <div class="col-md-5" style="">
                     <div class="row">
                         <div class="col-md-3">Premium</div>
                         <div class="col-md-3">Suporte</div>
@@ -31,11 +48,12 @@
         </div>
     </div>
 
-    <div class="container-fluid" style="background: gray;">
+    <div class="container-fluid" style="background-image: linear-gradient(#212c39, #121e3d 50%, #000);
+    background-repeat: no-repeat;">
 
         
 
-        <div class="container" style="background: bisque;">
+        <div class="container" style="background: #ff4632;">
             <div class="row">
                 <div class="col-md-8">
                     <h1>
@@ -61,11 +79,11 @@
 
         <div class="container" style="background: cornsilk;">
             <div class="row">
-                <div class="col-md-3" style="background: lightseagreen;">
-                    <div class="user_image">
+                <div class="col-md-3" style="background: #1c1c1c;">
+                    <div class="user_image" style="color: white;">
                         imagem aqui
                     </div>
-                    <div class="options">
+                    <div class="options" style="color: #919496;">
                         <ul ul class="nav flex-column">
                             <li class="nav-item active">
                                 <a href="#">Visão geral da conta</a>
@@ -98,10 +116,10 @@
                     </div>
                 </div>
     
-                <div class="col-md-9" style="background: mediumspringgreen;">
-                    <div class="container" style="background: palegreen;">
-                        <h1>Visão geral da conta    </h1>
-                        <h3>Perfil</h3>
+                <div class="col-md-9" style="background: #ffffff;">
+                    <div class="container">
+                        <h1 style="font-weight: bold;">Visão geral da conta    </h1>
+                        <h3 style="font-weight: bold;">Perfil</h3>
                         <table>
                             <tbody>
                                 <tr>
@@ -126,46 +144,56 @@
                                 </tr>
                             </tbody>
                         </table>
+                        <br>
                         <a href="#" class="btn btn-light">EDITAR PERFIL</a>
                     </div>
+                    <br>
 
-                    <div class="container" style="background: lightcyan;">
-                        <h3>Seu plano</h3>
+                    <div class="container" style="">
+                        <h3 style="font-weight: bold;">Seu plano</h3>
 
-                        <div class="col-auto" style="background: purple;">
+                        <div style="
+                        height: 230px;
+                        font-size: 50px;background: rgba(0, 0, 0, 0) linear-gradient(-180deg, rgb(182, 43, 190) 0%, rgb(150, 34, 185) 100%) repeat scroll 0% 0%;">
                             <div class="container">
-                                <span>Spotify Free</span>
+                                <span style="color: white;">Spotify Free</span>
                             </div>
                         </div>
-                        <div class="gratis" style="background: gray;">
+                        <div class="gratis" style="height: 230px; border: thin solid;">
                             <div class="container">
                                 <p>Ouça música apenas em ordem aleatória e com anúncios.</p>
                                 <hr>
-                                <h3>Grátis</h3>
+                                <h3 style="font-weight: bold;">Grátis</h3>
                             </div>
                         </div>
+                        <br>
                         <a href="#" class="btn btn-light">SEJA PREMIUM</a>
 
                     </div>
-
-                    <div class="container" style="background: lightyellow;">
-                        <h3>Saia em qualquer lugar</h3>
+                    <br>
+                    <div class="container" style="">
+                        <h3 style="font-weight: bold;">Saia em qualquer lugar</h3>
+                        <br>
                         <p>Saia em tudo que o Spotify estiver aberto, inclusive na Web, no celular, no desktop ou em qualquer outro dispositivo.</p>
-                        <div class="aviso" style="background: gray;">
+                        <br>
+                        <div class="alert alert-secondary" role="alert">
                             <span>Aviso: não será feito logout de dispositivos parceiros, como aparelhos da Sonos ou PlayStation. Para saber mais sobre como sair do Spotify (ou desvinculá-lo) em um dispositivo parceiro, confira o manual do fabricante do dispositivo.</span>
                         </div>
+                        <a href="#" class="btn btn-light">SAIR DE TODOS OS DISPOSITIVOS</a>
                     </div>
+                    <br><br>
 
                 </div>
             </div>
         </div>
     </div>
+   
     <div style="background: black;">
-        <div class="container" style="background: salmon;">
+        <div class="container" style="background: black;">
             <div class="row">
                 <div class="col-md-2">
-                    <div class="container" style="background: gray;">
-                        Logo Spotify
+                    <div class="container">
+                        <img src="../images/logo.png" alt="logo" height="40px" width="132px">
                     </div>
                 </div>
                 <div class="col-md-7">
@@ -173,48 +201,48 @@
                         <div class="col-md-4">
                             <ul> EMPRESA
                                 <li>
-                                    Sobre
+                                    <a href="#">Sobre</a>
                                 </li>
                                 <li>
-                                    Empregos
+                                    <a href="#">Empregos</a>
                                 </li>
                                 <li>
-                                    For the Record
+                                    <a href="#">For the Record</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="col-md-4">
                             <ul>COMUNIDADES
                                 <li>
-                                    Para artistas
+                                    <a href="#">Para artistas</a>
                                 </li>
                                 <li>
-                                    Desenvolvedores
+                                    <a href="#">Desenvolvedores</a>
                                 </li>
                                 <li>
-                                    Publicidade
+                                    <a href="#">Publicidade</a>
                                 </li>
                                 <li>
-                                    Investidores
+                                    <a href="#">Investidores</a>
                                 </li>
                                 <li>
-                                    Fornecedores
+                                    <a href="#">Fornecedores</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="col-md-4">
                             <ul>LINKS ÚTEIS
                                 <li>
-                                    Suporte
+                                    <a href="#">Suporte</a>
                                 </li>
                                 <li>
-                                    Player da web
+                                    <a href="#">Player da web</a>
                                 </li>
                                 <li>
-                                    Aplicativo móvel grátis
+                                    <a href="#">Aplicativo móvel grátis</a>
                                 </li>
                                 <li>
-                                    Retrospectiva 2020
+                                    <a href="#">Retrospectiva 2020</a>
                                 </li>
                             </ul>
                         </div>
